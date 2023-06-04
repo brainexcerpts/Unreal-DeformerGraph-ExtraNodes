@@ -10,8 +10,6 @@
 */
 #pragma once
 
-#define TEMP_API
-
 #include "OptimusComputeDataInterface.h"
 #include "ComputeFramework/ComputeDataProvider.h"
 
@@ -21,9 +19,16 @@ class FSkeletalMeshObject;
 class USkinnedMeshComponent;
 
 
-/** Compute Framework Data Interface for skeletal data. */
+/** Compute Framework Data Interface for skeletal data. 
+    
+    Thanks to Macro magic (UCLASS etc) which allows introspection, 
+    this class will be automatically detected and added to the UI of the 
+    Deformer graph editor.
+    
+    UPROPERTY will also show un in the details pannel on the right side.
+*/
 UCLASS(Category = ComputeFramework)
-class TEMP_API UOptimusDataInterfaceGetBoneID : public UOptimusComputeDataInterface
+class DEFORMERGRAPHBONUSTOOLS_API UOptimusDataInterfaceGetBoneID : public UOptimusComputeDataInterface
 {
 	GENERATED_BODY()
 
