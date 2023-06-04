@@ -1,0 +1,12 @@
+//
+#include "/Engine/Private/GpuSkinCommon.ush"
+
+
+float4x4 {DataInterfaceName}_BoneMatrix; 
+
+float4x4 ReadBoneMatrix_{DataInterfaceName}()
+{
+	return {DataInterfaceName}_BoneMatrix;	
+}
+
+//

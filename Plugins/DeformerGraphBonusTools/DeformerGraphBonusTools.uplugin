@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "DeformerGraphBonusTools",
+	"Description": "Extends deformer graph",
+	"Category": "Animation",
+	"CreatedBy": "Rodolphe Vaillant",
+	"CreatedByURL": "rodolphe-vaillant.fr",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DeformerGraphBonusTools",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "DeformerGraph",
+			"Enabled": true
+		}
+	]
+}

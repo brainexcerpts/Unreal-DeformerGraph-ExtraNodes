@@ -1,0 +1,12 @@
+//
+#include "/Engine/Private/GpuSkinCommon.ush"
+
+
+uint {DataInterfaceName}_BoneId; 
+
+uint ReadBoneId_{DataInterfaceName}()
+{
+	return {DataInterfaceName}_BoneId;	
+}
+
+//
