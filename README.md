@@ -6,6 +6,7 @@ Drop `/Plugins` into your project folder and build.
 Two new nodes will be available:
 
 - GetBoneMatrix_BonusNode: Given a joint name returns get the joint's global (world) transformation.
+The transformation can be inverted with an optional checkbox.
 - GetBoneId_BonusNode: Given a joint name returns its global index.
 
 Tested on Unreal-Engine 5.1 
